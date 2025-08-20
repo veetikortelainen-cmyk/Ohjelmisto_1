@@ -1,7 +1,7 @@
 import math
-pii = math.pi
-sade = float(input("Anna ympyrän säde"))
 
+sade = float(input("Anna ympyrän säde"))
+pii = math.pi
 # Lasketaan ympyrän pinta-ala
 ala = (pii) * sade ** 2
 
