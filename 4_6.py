@@ -16,9 +16,7 @@ while a < lkm:
     if x*x + y*y < 1:
         n += 1
 # Lasketaan pii:n likiarvo
-if n <= 0:
-    print("Ympyrän sisällä ei ole pistei")
-else:
-    piinlikiarvo = 4*lkm/n
-    print(f"Pii:n likiarvo on {piinlikiarvo:.2f}")
+
+piinlikiarvo = 4*lkm/n
+print(f"Pii:n likiarvo on {piinlikiarvo:.2f}")
 
