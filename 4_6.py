@@ -9,11 +9,11 @@ a = 0
 n = 0
 
 # Lasketaan pisteiden määrä ympyrässä
-while a <= lkm:
-    x = float(random.randint(-1, 1))
-    y = float(random.randint(-1, 1))
+while a < lkm:
+    x = random.uniform(-1, 1)
+    y = random.uniform(-1, 1)
     a += 1
-    if x ** 2 + y**2 < 1:
+    if x*x + y*y < 1:
         n += 1
 # Lasketaan pii:n likiarvo
 if n <= 0:
