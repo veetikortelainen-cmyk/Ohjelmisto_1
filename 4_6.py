@@ -10,14 +10,15 @@ n = 0
 
 # Lasketaan pisteiden määrä ympyrässä
 while a <= lkm:
-    x = random.randint(-1, 1)
-    y = random.randint(-1, 1)
+    x = float(random.randint(-1, 1))
+    y = float(random.randint(-1, 1))
     a += 1
     if x ** 2 + y**2 < 1:
         n += 1
 # Lasketaan pii:n likiarvo
+if n <= 0:
+    print("Ympyrän sisällä ei ole pistei")
+else:
+    piinlikiarvo = 4*lkm/n
+    print(f"Pii:n likiarvo on {piinlikiarvo:.2f}")
 
-piinlikiarvo = 4*lkm/n
-print(f"Pii:n likiarvo on {piinlikiarvo:.2f}")
-
-# jos n on 0 ohjelma ei toimi en tiedä miten korjata
