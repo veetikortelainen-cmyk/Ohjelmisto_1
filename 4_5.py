@@ -2,9 +2,9 @@
 
 x = "rules"
 y = "Phyton"
-yritys = 1
+yritys = 0
 
-while True:
+while yritys < 5:
     a = input("Anna käyttäjätunnus: ")
     b = input("Anna salasana: ")
     if a == y and b == x:
@@ -16,8 +16,6 @@ while True:
     else:
         print("Salasana tai käyttäjätunnus oli väärin")
         yritys += 1
-
-
 
 
 

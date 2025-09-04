@@ -9,7 +9,6 @@ if luku == num:
     yritys += 1
 
 while luku != num:
-
     if luku < num:
         print("Luku jota yritätä arvat on suurempi")
         luku = int(input("Yritä uudelleen: "))

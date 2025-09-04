@@ -7,7 +7,12 @@ while True:
     else:
         luku = float(merk)
         luvut.append(luku)
-luvut.sort(reverse = True)
 
-for x in luvut:
-    print(x)
+if len(luvut)>= 5:
+    luvut.sort(reverse=True)
+    for x in luvut[:5]:
+        print(x)
+else:
+    luvut.sort(reverse=True)
+    for x in luvut[:5]:
+        print(x)
