@@ -6,7 +6,7 @@ def yht():
     print(f"Antamiesi kokonaislukujen summa: {summa}")
     return
 
-# Luodaan lista ja while loop jossa kysytään ja lisätään listaan kokonaisluvut
+# Luodaan lista ja while loop jossa kysytään ja lisätään listaan kokonaisluvut.
 
 lista = []
 
