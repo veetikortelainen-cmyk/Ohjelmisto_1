@@ -9,9 +9,6 @@ dif_by_twolist = []
 a = input("Anna kokonais luku: ")
 
 while a != "":
-    if a == "":
-        a = input("Anna kokonais luku: ")
-    else:
         luku= int(a)
         if luku % 2 == 0:
             dif_by_twolist.append(luku)
