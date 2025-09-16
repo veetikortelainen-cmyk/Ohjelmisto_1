@@ -12,12 +12,7 @@ yhteys = mysql.connector.connect(
 a = input("Maakoodi: ")
 maakoodi = str.upper(a)
 
-sql = f'''
-    select type, count(*) 
-    fom airport 
-    where iso_country = "{maakoodi }"
-    group by type;
-'''
+sql = f'select type, count(*) from airport where iso_country = "{maakoodi}" group by type'
 
 kursori = yhteys.cursor()
 kursori.execute(sql)
