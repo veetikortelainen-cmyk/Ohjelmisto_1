@@ -19,8 +19,8 @@ class Auto:
 
 autot_lista = []
 
-for i in range(1, 11):
-    autot_lista.append(Auto(f"ABC-{i}", random.randint(100, 200)))
+for auto in range(1, 11):
+    autot_lista.append(Auto(f"ABC-{auto}", random.randint(100, 200)))
 
 
 kilpailu_kaynnissa = True
